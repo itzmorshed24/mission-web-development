@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flexbox design</title>
+    <style>
+      nav a {
+        text-decoration: none;
+        color: black;
+      }
+      nav {
+        display: flex;
+        justify-content: space-between;
+      }
+      .login-form-container {
+        display: flex;
+        justify-content: center;
+      }
+      .login-container {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        border: 2px solid blue;
+      }
+      .login-container input {
+        margin-bottom: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <div>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Blog</a>
+        <a href="#">Sevicese</a>
+      </div>
+      <a href="">Login</a>
+    </nav>
+
+    <section class="login-form-container">
+      <form action="" class="login-container">
+        <h3>Please Login</h3>
+        <input type="email" placeholder="Enter Your Email Address" required />
+        <input
+          type="password"
+          name=""
+          id=""
+          placeholder="Enter Your Password"
+          required
+        />
+        <input type="submit" value="Login" />
+      </form>
+    </section>
+  </body>
+</html>
