@@ -1,1 +1,0 @@
-String তিন নিয়মে লেখা যায়:const country = 'Bangladesh';const division = "Rangpur";const upazilla = `Chirirbandar`;
